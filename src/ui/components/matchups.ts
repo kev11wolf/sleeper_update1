@@ -1,0 +1,1 @@
+export function matchupCard(){ const d=document.createElement('div'); d.textContent='matchup'; return d;}

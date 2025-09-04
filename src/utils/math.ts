@@ -1,0 +1,1 @@
+export function zscores(a:number[]){return a;}

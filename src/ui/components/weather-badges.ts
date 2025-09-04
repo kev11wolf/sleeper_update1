@@ -1,0 +1,1 @@
+export function weatherBadges(){ const d=document.createElement('div'); d.textContent='weather'; return d;}

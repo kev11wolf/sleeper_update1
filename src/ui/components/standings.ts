@@ -1,0 +1,1 @@
+export function standingsTable(){ const d=document.createElement('div'); d.textContent='standings'; return d;}

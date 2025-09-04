@@ -1,0 +1,1 @@
+export function h(tag:any){ return document.createElement('div'); }

@@ -1,0 +1,1 @@
+import {describe,it,expect} from 'vitest'; describe('ok',()=>{ it('1',()=> expect(1).toBe(1));});

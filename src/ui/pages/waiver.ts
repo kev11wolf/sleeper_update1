@@ -1,0 +1,1 @@
+export default async function(){ const d=document.createElement('div'); d.textContent='waivers'; return d;}

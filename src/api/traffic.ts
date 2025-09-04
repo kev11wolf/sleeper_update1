@@ -1,0 +1,1 @@
+export async function renderVisitorCount(el:HTMLElement){el.textContent='0';}

@@ -1,0 +1,1 @@
+export const DEFAULT_LEAGUE_ID=''; export const CURRENT_DATA_PATH='/data/current';

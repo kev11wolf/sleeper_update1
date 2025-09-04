@@ -1,0 +1,1 @@
+export async function fetchJSON(p:string){ const r=await fetch(p); return r.json(); }

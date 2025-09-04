@@ -1,0 +1,1 @@
+export function summarizeWeather(_:any){return [];}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://sleepercdn.com data:; style-src 'self'; script-src 'self'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/theme-light.css" id="theme-light">
+  <link rel="stylesheet" href="assets/css/theme-dark.css" id="theme-dark" disabled>
+  <link rel="stylesheet" href="assets/css/print.css" media="print">
+  <title>Sleeper League Dashboard</title>
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">🏈 Sleeper League Dashboard</div>
+    <nav class="nav">
+      <a href="#/dashboard" data-link>Dashboard</a>
+      <a href="#/historical" data-link>Historical</a>
+      <a href="#/power-rankings" data-link>Power Rankings</a>
+      <a href="#/waivers" data-link>Waivers</a>
+      <a href="#/settings" data-link>Settings</a>
+      <a href="#/report" data-link>Weekly Report</a>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+  </header>
+  <main id="app" role="main" aria-live="polite">
+    <div class="skeleton">Loading…</div>
+  </main>
+  <footer class="app-footer">
+    <span id="last-update">Last update: —</span>
+    <span class="spacer"></span>
+    <span>Visitors: <span id="visitor-count">—</span></span>
+  </footer>
+  <script type="module" src="assets/bundle.js"></script>
+</body>
+</html>

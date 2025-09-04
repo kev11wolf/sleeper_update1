@@ -1,0 +1,5 @@
+{
+  "name": "Sleeper League Dashboard",
+  "start_url": "/",
+  "display": "standalone"
+}

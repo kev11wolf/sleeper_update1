@@ -1,0 +1,1 @@
+import './utils/dummy'; console.log('app');

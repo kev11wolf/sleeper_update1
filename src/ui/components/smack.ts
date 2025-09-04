@@ -1,0 +1,1 @@
+export function smackPanel(){ const d=document.createElement('div'); d.textContent='smack'; return d;}

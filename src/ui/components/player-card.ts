@@ -1,0 +1,1 @@
+export function playerCard(){ const d=document.createElement('div'); d.textContent='player'; return d;}
